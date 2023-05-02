@@ -1,5 +1,5 @@
 # *Library Management System Project*
-#### By: Muhammad Muawiz Farooqi, Taher Fatima, Faith Gutierrez
+#### By: Muhammad Muawiz Farooqi, Tahera Fatima, Faith Gutierrez
 ### Table of Contents
 1. [Description](#Description)
 2. [Installation and Startup Process](#Installation-Proccess) 
