@@ -2,7 +2,7 @@
 #### By: Muhammad Muawiz Farooqi, Tahera Fatima, Faith Gutierrez
 ### Table of Contents
 1. [Description](#Description "Jump to Description")
-2. [Installation and Startup Process](#Installation and Startup Proccess "Jump to Installation-and-Startup-Proccess") 
+2. [Installation and Startup Process](#Installation and Startup Process "Jump to Installation-and-Startup-Process") 
 3. [Features](#Features "Jump to Features")
   
 
@@ -11,7 +11,7 @@
 Welcome to our library management system project! We are excited to introduce our user-friendly GUI interface that simplifies the process of managing library resources. Our project is designed with Python's tkinter.ttk module as the front end and SQLite as the back end, providing a powerful and efficient tool for librarians and library users alike. Each section of our GUI allows users to execute SQL queries by simply giving input and pressing a button!
 
 
-## Installation and Startup Proccess 
+## Installation and Startup Process 
 - Download the zipped repository
 - Install python https://www.python.org/downloads/release/python-3113/
 - Install sqlite https://www.sqlite.org/2023/sqlite-tools-win32-x86-3410200.zip
