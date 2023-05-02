@@ -21,13 +21,13 @@ To generate LMS.sqlite for the first time:
 - Remove any existing LMS.sqlite file
 - Enter the command line terminal and navigate to the “Code” folder.
 - Open sqlite3:
-```sqlite3
+`sqlite3`
 - Read in the SQL file LMS.sql:
-```.read LMS.sql
-- Close the command line interface.
+`.read LMS.sql
 Launching the GUI:
 - Enter the command line terminal and navigate to the “Code” folder
-- Type: python librarysystem.py
+- Run the python GUI file:
+`python librarysystem.py`
 - Navigate to Report.pdf for screenshots of the GUI for every task.
 
 
