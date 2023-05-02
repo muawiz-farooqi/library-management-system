@@ -12,6 +12,7 @@ Welcome to our library management system project! We are excited to introduce ou
 
 
 ## Installation and Startup Process
+
 #### Installation:
 - Download the zipped repository
 - Install python https://www.python.org/downloads/release/python-3113/
@@ -25,6 +26,7 @@ To generate LMS.sqlite for the first time:
 ```sqlite3```
 - Read in the SQL file LMS.sql:
 ```.read LMS.sql```
+
 #### Launching the GUI:
 - Enter the command line terminal and navigate to the “Code” folder
 - Run the python GUI file:
@@ -33,6 +35,7 @@ To generate LMS.sqlite for the first time:
 
 
 ## Features
+
 Our app has 7 database management features:
 - **Check out a Book**
 - **Get a Library Card**
