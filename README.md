@@ -31,7 +31,7 @@ To generate LMS.sqlite for the first time:
 - Enter the command line terminal and navigate to the “Code” folder
 - Run the python GUI file:
 ```python librarysystem.py```
-- Navigate to Report.pdf for screenshots of the GUI for every task.
+- Navigate to Report.pdf for test cases of the GUI for every feature.
 
 
 ## Features
