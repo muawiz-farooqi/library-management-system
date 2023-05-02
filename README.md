@@ -32,7 +32,7 @@ To generate LMS.sqlite for the first time:
 - Navigate to Report.pdf for screenshots of the GUI for every task.
 
 
-### Features
+## Features
 Our app has 7 database management features:
 - **Check out a Book**
 - **Get a Library Card**
