@@ -1,8 +1,8 @@
 # *Library Management System Project*
 #### By: Muhammad Muawiz Farooqi, Tahera Fatima, Faith Gutierrez
 ### Table of Contents
-1. [Description](#Description ""Jump to Description")
-2. [Installation and Startup Process](# Installation and Startup Proccess "Jump to Installation and Startup Proccess") 
+1. [Description](#Description "Jump to Description")
+2. [Installation and Startup Process](# Installation and Startup Proccess "Jump to Installation-and-Startup-Proccess") 
 3. [Features](#Features "Jump to features")
   
 
