@@ -83,3 +83,22 @@ DELETE FROM BOOK_AUTHORS WHERE rowid=1;
 -- Improve readability
 .mode columns
 .headers on
+
+
+-- Add Part 3 data
+ALTER TABLE Book_Loans
+ADD Late INTEGER;
+UPDATE Book_Loans
+SET Late = IIF(JULIANDAY(Returned_Date) > JULIANDAY(Due_Date), 1, 0);
+
+ALTER TABLE Library_Branch
+ADD LateFee INTEGER;
+UPDATE Library_Branch
+SET LateFee = rowid * 3;
+
+CREATE VIEW vBookLoanInfo AS SELECT Card_No, Name Borrower_Name, Date_Out, Due_Date, 
+Returned_Date, (JULIANDAY(Returned_Date) - JULIANDAY(Date_Out)) AS TotalDays, Title 
+Book_Title, (IIF(Late=0, 0, (JULIANDAY(Returned_Date) - JULIANDAY(Due_Date)))) AS 
+Days_Late, Branch_Id, (IIF(Late=0, 0, (JULIANDAY(Returned_Date) -
+JULIANDAY(Due_Date))))*LateFee AS LateFeeBalance
+FROM Borrower NATURAL JOIN Book_Loans NATURAL JOIN Book NATURAL JOIN Library_Branch;
